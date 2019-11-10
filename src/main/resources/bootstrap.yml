@@ -1,9 +1,9 @@
 spring:
   application:
-    name: business-logic-rest-config
+    name: business-logic-rest
   cloud:
     config:
-      uri: https://maisvida-configuration.cfapps.io/
+      uri: https://maisvida-configuration-server.cfapps.io/
       password: ${config.server.password}
       username: ${config.server.user}
   profiles:
